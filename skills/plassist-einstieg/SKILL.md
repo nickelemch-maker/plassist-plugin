@@ -24,12 +24,13 @@ Prüfe, ob das Werkzeug `archicad_finden` verfügbar ist.
 4. In der Plassist-App unter «Lizenz und Abo» diesen PC mit dem Büro-Konto anmelden.
 5. Claude Desktop wieder starten.
 
-Plassist läuft im normalen Chat von Claude Desktop. Archicad muss auf demselben PC offen sein.
+Plassist läuft im normalen Chat von Claude Desktop. Archicad muss auf demselben PC offen sein. Die Seite «Erste Schritte» in der Plassist-App zeigt Beispielsätze für den Anfang.
 
 ## 3. Meldungen der Werkzeuge
 
 - **status «keine_lizenz»:** Es wurde nichts geschrieben. Den Nutzer bitten, den PC in der Plassist-App unter «Lizenz und Abo» anzumelden.
 - **status «nicht_im_abo»:** Das Werkzeug gehört nicht zur Abo-Stufe dieses Arbeitsplatzes (Planung oder Komplett). Die Meldung weitergeben, nie umgehen. Ein Wechsel geht in der Plassist-App oder über plassist.ch.
+- **status «ausgeschaltet» oder ein Werkzeug fehlt:** Das Büro hat diesen Bereich im Büroprofil («funktionen», Liste «aus») ausgeschaltet; auf einem Planung-Platz fehlen ausserdem die Komplett-Werkzeuge (Bauleitung, Lexika). Einschalten mit `bueroprofil_aendern`, danach Claude Desktop neu starten.
 - **status «gesperrt»:** Eine andere Claude-Sitzung schreibt gerade in dieses Archicad. Warten und später nochmals versuchen; Lesen geht weiter.
 - **Add-on fehlt oder ist zu alt** (bei `archicad_finden` steht keine Plassist-Version): Plassist-Installer erneut ausführen und Archicad neu starten.
 
