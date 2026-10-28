@@ -1,0 +1,10 @@
+{
+  "name": "plassist",
+  "displayName": "Plassist",
+  "version": "0.2.1",
+  "description": "Plassist zeichnet mit Claude die Pläne eines Schweizer Architekturbüros direkt in Archicad: Grundrisse, Schnitte, Ansichten und Details nach SIA 400, mit Vorschau und Freigabe vor jeder Änderung.",
+  "author": { "name": "NKE GmbH", "url": "https://plassist.ch" },
+  "homepage": "https://plassist.ch",
+  "license": "MIT",
+  "keywords": ["archicad", "architektur", "sia-400", "schweiz", "werkplan", "bim"]
+}
