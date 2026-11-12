@@ -7,7 +7,7 @@ Plassist ist der Archicad-Assistent der NKE GmbH für Schweizer Architekturbüro
 Dieses Plugin bringt zwei Skills mit:
 
 - **plassist-einstieg**: erklärt, was Plassist kann, prüft, ob Plassist auf dem PC eingerichtet ist, und hilft bei Fragen zu Installation, Lizenz und Abo.
-- **plassist-arbeitsweise**: die feste Arbeitsweise in Archicad. Zuerst eine Vorschau, erst nach Freigabe schreiben, danach zurücklesen und prüfen, nie ohne Auftrag speichern.
+- **plassist-arbeitsweise**: die feste Arbeitsweise in Archicad. Zuerst den Auftrag klären (was, wo, Massstab, Aufbau, Vorbild), dann eine Vorschau, erst nach Freigabe schreiben, danach zurücklesen und prüfen, nie ohne Auftrag speichern.
 
 Die Archicad-Werkzeuge selbst kommen vom Plassist-Programm auf dem PC (Plassist-Agent und Plassist-Add-on für Archicad). Es wird mit dem Installer von [plassist.ch](https://plassist.ch) eingerichtet und braucht eine Plassist-Lizenz. Ohne dieses Programm erklärt das Plugin, was Plassist ist und wie man es einrichtet.
 
