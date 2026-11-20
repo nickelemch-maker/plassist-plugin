@@ -4,10 +4,13 @@ Plassist ist der Archicad-Assistent der NKE GmbH für Schweizer Architekturbüro
 
 ## Was dieses Plugin macht
 
-Dieses Plugin bringt zwei Skills mit:
+Dieses Plugin bringt drei Skills mit:
 
 - **plassist-einstieg**: erklärt, was Plassist kann, prüft, ob Plassist auf dem PC eingerichtet ist, und hilft bei Fragen zu Installation, Lizenz und Abo.
 - **plassist-arbeitsweise**: die feste Arbeitsweise in Archicad. Zuerst den Auftrag klären (was, wo, Massstab, Aufbau, Vorbild), dann eine Vorschau, erst nach Freigabe schreiben, danach zurücklesen und prüfen, nie ohne Auftrag speichern.
+- **plassist-details**: fester Ablauf für Details 1:10, zuerst Fensterdetails: Wandaufbau, Einbaulage, Fensterbank, Sturz und Storen aus Modell und Lexikon klären, fachliche Prüfliste, dann Vorschau und erst nach Freigabe zeichnen.
+
+Dazu kommen vorbereitete Befehle, damit klar ist, was zu tun ist: `/situation`, `/machbarkeit`, `/kanalisation`, `/fensterdetail`, `/schnitt-bemassen`, `/plangrafik-pruefen` und `/flaechen`. Nach dem Befehl die Angaben dazuschreiben, zum Beispiel `/fensterdetail F12 vertikal EG`.
 
 Die Archicad-Werkzeuge selbst kommen vom Plassist-Programm auf dem PC (Plassist-Agent und Plassist-Add-on für Archicad). Es wird mit dem Installer von [plassist.ch](https://plassist.ch) eingerichtet und braucht eine Plassist-Lizenz. Ohne dieses Programm erklärt das Plugin, was Plassist ist und wie man es einrichtet.
 
@@ -21,7 +24,7 @@ Die Archicad-Werkzeuge selbst kommen vom Plassist-Programm auf dem PC (Plassist-
 
 Das Plugin selbst führt kein Programm aus, startet keinen Server und schickt keine Daten irgendwohin. Es besteht nur aus Text-Anleitungen für Claude.
 
-Der Plassist-Agent auf dem PC arbeitet nur mit dem lokal geöffneten Archicad. Archicad-Projekte bleiben auf dem PC; die NKE GmbH erhält keine Pläne und keine Projektdaten. Für die Lizenzprüfung meldet sich der Agent beim Lizenzserver der NKE GmbH (lizenz.plassist.ch, Infomaniak, Schweiz). Mit dieser täglichen Prüfung geht standardmässig eine Tagesstatistik ohne Inhalt mit: pro Werkzeug nur Zahlen wie Aufrufe, Dauer und Fehlercodes, nie Plandaten, Namen, Pfade oder Modelltexte. Das Büro sieht sie in der Plassist-App unter «Verbesserungsdaten» und kann sie dort abschalten. Details: [Datenschutzerklärung](https://plassist.ch/datenschutz.html).
+Der Plassist-Agent auf dem PC arbeitet nur mit dem lokal geöffneten Archicad. Archicad-Projekte bleiben auf dem PC; die NKE GmbH erhält keine Pläne und keine Projektdaten. Für die Lizenzprüfung meldet sich der Agent beim Lizenzserver der NKE GmbH (lizenz.plassist.ch, Infomaniak, Schweiz). Mit dieser täglichen Prüfung geht standardmässig eine Tagesstatistik ohne Inhalt mit: pro Werkzeug nur Zahlen wie Aufrufe, Dauer und Fehlercodes, nie Plandaten, Namen, Pfade oder Modelltexte. Das Büro sieht sie in der Plassist-App unter «Verbrauch und Daten» und kann sie dort abschalten. Details: [Datenschutzerklärung](https://plassist.ch/datenschutz.html).
 
 ## Support
 
